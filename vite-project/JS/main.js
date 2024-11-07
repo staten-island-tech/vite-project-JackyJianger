@@ -16,6 +16,8 @@ function injectCardIntoDOM(groceryItem) {
       "beforeend",
       `<div class="itemCards">
         <p>${groceryItem.item}</p>
+        <img src=${groceryItem.image}><img>
+        <p>${groceryItem.price}</p>
       </div>`
     );
   }
@@ -30,10 +32,9 @@ const vegetables = groceryItems.filter((groceryItem) => groceryItem.category ===
 const grains = groceryItems.filter((groceryItem) => groceryItem.category === "Grains"); 
 const pantry = groceryItems.filter((groceryItem) => groceryItem.category === "Pantry"); 
 
-function filterItems(type){
-  groceryItems.filter((groceryItem) => groceryItem.category === type); 
-}
-
+/*function filterItems(type){
+  return groceryItems.filter((groceryItem) => groceryItem.category === type); 
+}*/
 
 const fruitsBtn = DOMSelectors.fruitBtn;
 fruitsBtn.addEventListener("click", function () {
