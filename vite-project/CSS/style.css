@@ -9,7 +9,7 @@
 
 #container-box {
   padding: 10px;
-  background-color: rgb(255, 115, 0);
+  background-color: var(--primary);
   color: rgb(255, 239, 220);
   text-align: center;
   display:flex;
@@ -32,6 +32,15 @@
   --h3: 4rem;
   --h4: 3rem;
   --h5: 1.5rem;
+}
+
+.awesome{
+    background-color: var(--primary);
+}
+
+.main{
+  background-color: var(--secondary);
+  height: 90vh;
 }
 
 .warm{
@@ -58,6 +67,6 @@ h1,h2,h3,h4{
   padding: 10px;
   width: 32%; 
   height: 400px;
-  background-color: green;
+  background-color: var(--secondary);
   border:2px solid black;
 }

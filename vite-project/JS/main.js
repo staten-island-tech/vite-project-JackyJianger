@@ -9,6 +9,7 @@ const DOMSelectors = {
     vegetablesBtn: document.getElementById('vegetables-btn'),
     grainsBtn: document.getElementById('grains-btn'),
     pantryBtn: document.getElementById('pantry-btn'),
+
     
 }
 function injectCardIntoDOM(groceryItem) {    
@@ -74,3 +75,13 @@ pantryBtn.addEventListener("click", function () {
   document.getElementById("container-box").innerHTML = "";
   pantry.forEach((groceryItem) => injectCardIntoDOM(groceryItem));
 });
+
+changebtn.addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  }
+});     
