@@ -17,7 +17,7 @@ function injectCardIntoDOM(groceryItem) {
       "beforeend",
       `<div class="itemCards">
         <p>${groceryItem.item}</p>
-        <img src=${groceryItem.image}><img>
+        <img class="images"src=${groceryItem.image}><img>
         <p>${groceryItem.price}</p>
       </div>`
     );

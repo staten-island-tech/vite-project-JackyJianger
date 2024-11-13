@@ -11,115 +11,115 @@ const groceryItems = [
       item: "Bananas", 
       price: 0.75, 
       category: "Fruits", 
-      image: "https://example.com/images/bananas.jpg" 
+      image: "../JS/productimgs/BANANA.png" 
     },
     { 
       item: "Bread", 
       price: 2.00, 
       category: "Bakery", 
-      image: "https://example.com/images/bread.jpg" 
+      image: "../JS/productimgs/bread.png" 
     },
     { 
       item: "Milk", 
       price: 3.50, 
       category: "Dairy", 
-      image: "https://example.com/images/milk.jpg" 
+      image: "../JS/productimgs/milk.png" 
     },
     { 
       item: "Eggs", 
       price: 2.25, 
       category: "Dairy", 
-      image: "https://example.com/images/eggs.jpg" 
+      image: "../JS/productimgs/eggs.png" 
     },
     { 
       item: "Chicken Breast", 
       price: 5.99, 
       category: "Meat", 
-      image: "https://example.com/images/chicken_breast.jpg" 
+      image: "../JS/productimgs/chickenbreast.png" 
     },
     { 
       item: "Broccoli", 
       price: 1.20, 
       category: "Vegetables", 
-      image: "https://example.com/images/broccoli.jpg" 
+      image: "../JS/productimgs/Broccoli.png" 
     },
     { 
       item: "Rice", 
       price: 1.80, 
       category: "Grains", 
-      image: "https://example.com/images/rice.jpg" 
+      image: "../JS/productimgs/rice.png" 
     },
     { 
       item: "Pasta", 
       price: 1.00, 
       category: "Grains", 
-      image: "https://example.com/images/pasta.jpg" 
+      image: "../JS/productimgs/pasta.png" 
     },
     { 
       item: "Cheese", 
       price: 4.50, 
       category: "Dairy", 
-      image: "https://example.com/images/cheese.jpg" 
+      image: "../JS/productimgs/Cheese.png" 
     },
     { 
       item: "Oranges", 
       price: 1.00, 
       category: "Fruits", 
-      image: "https://example.com/images/oranges.jpg" 
+      image: "../JS/productimgs/Oranges.png" 
     },
     { 
       item: "Tomatoes", 
       price: 1.30, 
       category: "Vegetables", 
-      image: "https://example.com/images/tomatoes.jpg" 
+      image: "../JS/productimgs/Tomato.png" 
     },
     { 
       item: "Carrots", 
       price: 0.90, 
       category: "Vegetables", 
-      image: "https://example.com/images/carrots.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Potatoes", 
       price: 1.00, 
       category: "Vegetables", 
-      image: "https://example.com/images/potatoes.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Spinach", 
       price: 2.00, 
       category: "Vegetables", 
-      image: "https://example.com/images/spinach.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Ground Beef", 
       price: 6.50, 
       category: "Meat", 
-      image: "https://example.com/images/ground_beef.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Yogurt", 
       price: 0.80, 
       category: "Dairy", 
-      image: "https://example.com/images/yogurt.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Peanut Butter", 
       price: 3.00, 
       category: "Pantry", 
-      image: "https://example.com/images/peanut_butter.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Honey", 
       price: 4.00, 
       category: "Pantry", 
-      image: "https://example.com/images/honey.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
     { 
       item: "Cereal", 
       price: 3.50, 
       category: "Pantry", 
-      image: "https://example.com/images/cereal.jpg" 
+      image: "../JS/productimgs/apple.png" 
     },
   ];
   export {groceryItems}
