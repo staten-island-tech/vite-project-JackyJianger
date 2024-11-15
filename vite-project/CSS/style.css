@@ -73,3 +73,8 @@ h1,h2,h3,h4{
   background-color: var(--secondary);
   border:2px solid black;
 }
+
+.button{
+  width: 25px;
+  height: 25px;
+}
