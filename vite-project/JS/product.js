@@ -3,7 +3,7 @@ const groceryItems = [
     item: "Apples",
     price: 1.5,
     category: "Fruits",
-    image: "/apple.png",
+    image: "../apple.png",
   },
   {
     item: "Bananas",
